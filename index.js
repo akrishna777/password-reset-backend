@@ -16,7 +16,7 @@ app.use(cors())
 app.use('/users', userRouter)
 
 app.use('/', (req, res) => {
-  res.send('Welcome to API')
+  res.send('Welcome to Password Reset API')
 })
 
 const PORT = 5000 || process.env.PORT
